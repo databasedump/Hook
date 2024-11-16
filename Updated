@@ -1,0 +1,71 @@
+getgenv().Delusion = {
+    ['Visuals'] = {
+        ['Field Of Views'] = {
+            ['Aimbot'] = {
+                ['Use'] = false,
+                ['Show'] = true,
+                ['Filled'] = false,
+                ['Color'] = Color3.fromRGB(255, 255, 255),
+                ['Transparency'] = 1,
+                ['Radius'] = 50,
+                ['Position'] = "Mouse" --// Mouse, Center
+            },
+            ['Silent'] = {
+                ['Show'] = false,
+                ['Filled'] = false,
+                ['Color'] = Color3.fromRGB(255, 255, 255),
+                ['Transparency'] = 1,
+                ['Radius'] = 90,
+                ['Position'] = "Mouse" --// Mouse, Center
+            }
+        }
+    },
+    ['Combat'] = {
+        ['Aimbot'] = {
+            ['Settings'] = {
+                ['Key'] = 'C',
+                ['Enabled'] = true,
+                ['Predict'] = {
+                    ['Enabled'] = true,
+                    ['Velocity X'] = 0.1992,
+                    ['Velocity Y'] = 0.20292,
+                },
+                ['Smooth'] = {
+                    ['Enabled'] = true,
+                    ['Multiply'] = 0.0139,
+                    ['Lerp'] = {
+                        ['Origin'] = 'Delusion', --// Delusion, Delta, Custom
+                        ['Customizable'] = {
+                            ['Alpha'] = 4,
+                            ['Control'] = 0.1
+                        }
+                    }
+                },
+                ['Bone'] = {
+                    ['Use'] = "Default",
+                    ['Select'] = "HumanoidRootPart",
+                    ['Offsets'] = {
+                        ['Enabled'] = true,
+                        ['X'] = -0.65,
+                        ['Y'] = 0.15
+                    }
+                }
+            }
+        },
+        ['Silent'] = {
+            ['Settings'] = {
+                ['Mode'] = 'Target',
+                ['Enabled'] = true,
+                ['Chance'] = 100,
+                ['Predict'] = {
+                    ['Velocity X'] = 0.12,
+                    ['Velocity Y'] = 0.12,
+                },
+                ['Bone'] = {
+                    ['Use'] = "Default",
+                    ['Select'] = "Head"
+                }
+            }
+        }
+    }
+}
