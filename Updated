@@ -1,4 +1,4 @@
-getgenv().Delusion = {
+getgenv().Hook = {
     ['Visuals'] = {
         ['Field Of Views'] = {
             ['Aimbot'] = {
@@ -34,7 +34,7 @@ getgenv().Delusion = {
                     ['Enabled'] = true,
                     ['Multiply'] = 0.0139,
                     ['Lerp'] = {
-                        ['Origin'] = 'Delusion', --// Delusion, Delta, Custom
+                        ['Origin'] = 'Custom', --// Hook, Delta, Custom
                         ['Customizable'] = {
                             ['Alpha'] = 4,
                             ['Control'] = 0.1
